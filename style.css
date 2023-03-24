@@ -1,12 +1,55 @@
-#cabecalho{
-  background: green;
-}
-.sessao{
-  background: yellow;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  margin: 100px;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
+html{
+  font-size: 0.625rem;
+}
 
+body{
+  font-family: 'roboto',sans-serif;
+  background: #ededed;
+}
+
+header{
+  background: #1e8c8e;
+  color: white;
+  text-align: center;
+  padding: 1.6rem 0rem 10rem;
+
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.logo{
+  color: #ef7d04;
+  font-weight: 400;
+}
+
+.periodo{
+  font-size: 2rem;
+}
+
+.container{
+  width: min(80vw, 800px);
+  margin: auto;
+  margin-top: -6rem;
+}
+
+.card{
+  width: 800px;
+  height: 136px;
+  background: white;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.50rem;
+}
+
+.balance{
+  padding: 0rem;
+}
