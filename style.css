@@ -4,8 +4,10 @@
   box-sizing: border-box;
 }
 
-html{
-  font-size: 0.625rem;
+:root{
+--primary-color:#1e8c8e;
+--secondary-color:#005c5d;
+--red:#f23232;
 }
 
 body{
@@ -14,10 +16,10 @@ body{
 }
 
 header{
-  background: #1e8c8e;
+  background: var(--primary-color);
   color: white;
   text-align: center;
-  padding: 1.6rem 0rem 10rem;
+  padding: 2rem 0rem 8rem;
 
 }
 
@@ -32,7 +34,9 @@ h1{
 }
 
 .periodo{
-  font-size: 2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: white;
 }
 
 .container{
@@ -42,14 +46,73 @@ h1{
 }
 
 .card{
-  width: 800px;
-  height: 136px;
   background: white;
   padding: 1.5rem 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   border-radius: 0.50rem;
+  margin-top: 1rem;
+}
+
+.card h2{
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--secondary-color);
+}
+
+.card p{
+  margin-top: 1.25rem;
+  color: var(--secondary-color);
+  font-size: 1.50rem;
 }
 
 .balance{
   padding: 0rem;
+}
+
+.transitions{
+  margin-top: 2rem;
+}
+
+.transitions h2{
+  font-weight: 400;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+}
+
+.data-table{
+  border-spacing: 0 0.5rem;
+  width: 100%;
+}
+
+table td{
+  background: white;
+  padding: 1rem 2rem;
+  font-weight: normal;
+  font-size: 1rem;
+}
+
+
+table tr{
+  opacity: 0.7;
+}
+
+table tr:hover{
+  opacity:1;
+}
+
+table th{
+  background: white;
+  opacity: 0.6;
+}
+
+footer{
+  text-align: center;
+  padding: 3rem;
+  background: var(--primary-color);
+  color: white;
+  margin-top: 3rem;
+}
+
+footer h2{
+  font-weight: 400;
 }
