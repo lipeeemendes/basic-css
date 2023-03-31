@@ -93,15 +93,12 @@ h1 span {
   width: 100%;
 }
 
-.data-table thead tr{
-  background: #89b0b0;
-}
-
 .data-table th{
   font-size: 1rem;
   font-weight: 400;
   text-align:left;
   padding: 0.5rem 0.75rem .5rem 0.75rem;
+  background: #89b0b0;
 }
 
 .data-table td{
@@ -114,6 +111,11 @@ h1 span {
 
 .data-table span{
   color: red;
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child{
+  border-radius: 0.25rem 0 0 0.25rem;
 }
 
 footer{
